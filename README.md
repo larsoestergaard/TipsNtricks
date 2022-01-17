@@ -16,5 +16,9 @@ code .sfdx/sfdx-config.json
 
 ## Git stuff
 
+### Set username and email to enable commits:
+git config --global user.name "My Name"
+git config --global user.email my@email.com
+
 ### Ignore SSL for project (only behind company VPN)
 git config http.sslVerify false
