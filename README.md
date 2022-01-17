@@ -12,3 +12,9 @@ code $home/.sfdx/sfdx.log
 
 ### Open config file for project usernames
 code .sfdx/sfdx-config.json
+
+
+## Git stuff
+
+### Ignore SSL for project (only behind company VPN)
+git config http.sslVerify false
